@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/transparent"/>
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#F0F0F0"/> <!-- Change the color to your desired clickable animation color -->
+            <corners android:radius="8dp"/> <!-- Adjust corner radius as needed -->
+        </shape>
+    </item>
+</selector>

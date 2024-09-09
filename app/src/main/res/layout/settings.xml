@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Preferences"
+        android:layout_marginStart="10dp"
+        android:id="@+id/pref_text"
+        android:textColor="@color/green"/>
+    <ListView
+        android:id="@+id/accountPreferencesListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/pref_text"
+        />
+    <CheckBox
+        android:id="@+id/privacy_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountPreferencesListView"
+        />
+    <TextView
+        android:id="@+id/additional_pref_text"
+        android:layout_width="match_parent"
+        android:paddingTop="18dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/privacy_checkbox"
+        android:layout_marginStart="10dp"
+        android:text="Account Settings"
+        android:textColor="@color/green"/>
+    <ListView
+        android:id="@+id/additionalSettingsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/additional_pref_text"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:paddingTop="16dp"
+        android:layout_below="@id/additionalSettingsListView"
+        android:id="@+id/misc_text"
+        android:textColor="@color/green"
+        android:text="Misc."/>
+    <ListView
+        android:id="@+id/miscListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1dp"
+        android:layout_below="@id/misc_text"
+        />
+
+</RelativeLayout>

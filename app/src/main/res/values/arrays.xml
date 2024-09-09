@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unit_entries">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="unit_values">
+        <item>(Kilometers)</item>
+        <item>(Miles)</item>
+    </string-array>
+    <string-array name="input_type_array">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="map_status_items">
+        <item>activityType</item>
+        <item>duration</item>
+        <item>distance</item>
+        <item>avgSpeed</item>
+        <item>avgPace</item>
+        <item>climb</item>
+        <item>calorie</item>
+    </string-array>
+
+    <string-array name="activity_type_array">
+        <item>Standing</item>
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+</resources>

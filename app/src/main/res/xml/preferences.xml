@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+    <PreferenceCategory
+        android:title="Account Preferences"
+        app:iconSpaceReserved="false">
+
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:key="user_profile"
+            android:title="User Profile"
+            android:summary="Name, Email, Class, etc">
+        <intent
+            android:action="com.example.callum_arul_myruns5.PROFILE_ACTIVITY" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            app:iconSpaceReserved="false"
+            android:key="privacy_setting"
+            android:title="Privacy Setting"
+            android:summary="Posting your records anonymously"
+            android:defaultValue="false" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="Additional Settings">
+
+        <ListPreference
+            app:iconSpaceReserved="false"
+            android:key="unit_preference"
+            android:title="Unit Preference"
+            android:summary="Select the units"
+            android:entries="@array/unit_entries"
+            android:entryValues="@array/unit_values"
+             />
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            android:key="comments_preference"
+            android:title="Comments"
+            android:summary="Please enter your comments"
+            android:defaultValue=""
+            android:inputType="text" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="Misc.">
+
+        <PreferenceScreen
+            app:iconSpaceReserved="false"
+            android:key="webpage_preference"
+            android:title="Webpage"
+            android:summary="https://www.sfu.ca/computing.html">
+
+            <intent
+                android:action="com.example.callum_arul_myruns5.WEBPAGE_ACTIVITY"
+               />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

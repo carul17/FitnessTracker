@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Callum_Arul_MyRuns5</string>
+    <string name="comments_text"><font size="16">Comments</font>\n\<font size="10">Please enter your comments</font></string>
+    <string name="units_text"><font size="16">Unit Preference</font>\n\<font size="10">Select the units</font></string>
+    <string name="privacy_text"><font size="16">Privacy Setting</font>\n\<font size="10">Posting your records anonymously</font></string>
+    <string name="webpage_text"><font size="16">Webpage</font>\n\<font size="10">https://www.sfu.ca/computing.html</font></string>
+    <string-array name="account_preferences_array">
+        <item>Profile</item>
+        <item><font size="16">Privacy Setting</font>\n\<font size="10">Posting your records anonymously</font></item>
+    </string-array>
+    <string-array name="additional_settings_array">
+        <item><font size="16">Unit Preference</font>\n\<font size="10">Select the units</font></item>
+        <item><font size="16">Comments</font>\n\<font size="10">Please enter your comments</font></item>
+    </string-array>
+    <string-array name="misc_array">
+        <item><font size="16">Webpage</font>\n\<font size="10">https://www.sfu.ca/computing.html</font></item>
+    </string-array>
+
+
+</resources>
