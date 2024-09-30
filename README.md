@@ -7,3 +7,5 @@ You can see your path on a map (uses google maps AP), check the distance covered
 
 
 To download the apk, you can download the code and open it on Android Studio. Then under 'build' menu, select 'build apk'.
+
+(This project was build separately and pushed to GitHub only recently)
